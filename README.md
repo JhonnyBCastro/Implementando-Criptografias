@@ -12,8 +12,10 @@ A implementação em Java permite criptografar e descriptografar uma mensagem fo
 
 > 1-A função `encriptar` pecorre cada caracter da mensagem e aplica o deslocamento especificado utilizando os valores da tabela ASCII, sendo os valores pré definidos que vão de 97<>122(respectivos aos caracteres minusculos).
 
-> 2-A função `verificaCaracter` é utilizada para que apenas caracteres validos do alfabeto sofram com deslocamento.
+> 2-A função `verificaCaracter` é utilizada para que apenas caracteres validos do alfabeto sofram o deslocamento.
 
 > 3- A função `descriptografar` pecorre cada caracter da mensagem criptografada e reverte o deslocamneto utilizando como base a tabela ASCII.
+
+##
 
   ## Cifra de Vigenère
