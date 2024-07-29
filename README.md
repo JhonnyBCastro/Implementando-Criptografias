@@ -19,3 +19,11 @@ A implementação em Java permite criptografar e descriptografar uma mensagem fo
 ##
 
   ## Cifra de Vigenère
+  
+A Cifra de Vigenère é um método de criptografia por substituição polialfabética que utiliza uma palavra-chave para determinar o deslocamento das letras na mensagem original. Cada letra da palavra-chave corresponde a um deslocamento específico, que é aplicado ciclicamente ao texto.
+
+###Implementação
+
+A implementação em Java permite criptografar e descriptografar uma mensagem fornecida pelo usuário utilizando uma chave que tambem foi fornecida.
+
+> 1-Na função `encriptar` o alfabeto foi definido, pois é através dele que iremos realizar a busca e pegar o indice dele
